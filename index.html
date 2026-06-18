@@ -64,5 +64,26 @@
             <div class="bar"><div class="fill" style="width: 35%"></div></div>
         </div>
     </section>
+    <script>
+    document.querySelectorAll('.skill').forEach(skill => {
+      const fill = skill.querySelector('.fill');
+      const width = fill.style.width;
+      
+      const label = document.createElement('span');
+      label.textContent = width;
+      label.className = 'skill-pct';
+      
+      const name = skill.querySelector('span');
+      
+      const header = document.createElement('div');
+      header.className = 'skill-header';
+      header.appendChild(name.cloneNode(true));
+      header.appendChild(label);
+      
+      name.replaceWith(header);
+    });
+  </script>
+</body>
+</html>
 </body>
 </html>
