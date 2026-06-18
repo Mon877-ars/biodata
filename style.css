@@ -14,6 +14,17 @@ header {
   text-align: center;
   padding: 60px 20px;
 }
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+.skill-pct {
+  color: #888;
+  font-size: 13px;
+  font-weight: normal;
+}
 .socials {
   display: flex;
   gap: 28px;
