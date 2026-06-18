@@ -86,7 +86,7 @@ td { padding: 10px 12px; border-bottom: 1px solid #eee; }
 td:first-child { font-weight: bold; width: 40%; color: #555; }
 
 .skill { margin-bottom: 14px; }
-.skill span { display: block; margin-bottom: 6px; font-weight: bold; }
+.skill span { font-weight: bold; }
 .bar { background: #eee; border-radius: 20px; height: 10px; }
 .fill { background: linear-gradient(90deg, #667eea, #764ba2); 
         height: 100%; border-radius: 20px; }
